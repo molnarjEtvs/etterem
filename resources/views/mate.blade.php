@@ -1,5 +1,5 @@
 @extends('layouts.master')
 @section('title','Bomboclat')
 @section('content')
-Helló ételek
+Helló Duke Dennis
 @endsection

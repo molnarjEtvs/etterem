@@ -28,6 +28,9 @@
                                 <a class="nav-link text-white" href="{{route('varga')}}">Varga Bálint</a>
                             </li>
                             
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('mate')}}">mate</a>
+                            </li>
                           </ul>
 
                         </div>
