@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Bomboclat')
+@section('title','Ételek')
 @section('content')
-Helló ételek
+Készen vagyok
 @endsection

@@ -9,8 +9,14 @@ use App\Http\Controllers\mateController;
 use App\Http\Controllers\ViviController;
 use App\Http\Controllers\mundoController;
 use App\Http\Controllers\diaController;
+use App\Http\Controllers\martinController;
+
 
 Route::get('/', function () {
+    return view('welcome');
+})->name('fooldal');
+
+Route::get('/martin', function () {
     return view('welcome');
 })->name('fooldal');
 
@@ -24,3 +30,4 @@ Route::get('/vivi',[ViviController::class,"index"])->name('vivi');
 Route::get('/mundo',[mundoController::class,"index"])->name('mundo');
 
 Route::get('/dia',[diaController::class,"index"])->name('dia');
+Route::get('/martin',[etelController::class,"index"])->name('martin');

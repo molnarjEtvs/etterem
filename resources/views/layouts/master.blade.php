@@ -33,6 +33,10 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('vivi')}}">Vivi</a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('etelek')}}">martin</a>
+                            </li>
                             
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('mate')}}">mate</a>
