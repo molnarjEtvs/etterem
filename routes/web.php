@@ -8,6 +8,7 @@ use App\Http\Controllers\balintController;
 use App\Http\Controllers\mateController;
 use App\Http\Controllers\ViviController;
 use App\Http\Controllers\mundoController;
+use App\Http\Controllers\diaController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -21,3 +22,5 @@ Route::get('/mate',[mateController::class,"index"])->name('mate');
 Route::get('/vivi',[ViviController::class,"index"])->name('vivi');
 
 Route::get('/mundo',[mundoController::class,"index"])->name('mundo');
+
+Route::get('/dia',[diaController::class,"index"])->name('dia');
