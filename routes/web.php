@@ -6,6 +6,7 @@ use App\Http\Controllers\etelController;
 use App\Http\Controllers\balintController;
 
 use App\Http\Controllers\mateController;
+use App\Http\Controllers\ViviController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -15,3 +16,5 @@ Route::get('/', function () {
 Route::get('/etelek',[etelController::class,"index"])->name('etelek');
 Route::get('/varga',[balintController::class,"index"])->name('varga');
 Route::get('/mate',[mateController::class,"index"])->name('mate');
+
+Route::get('/vivi',[ViviController::class,"index"])->name('vivi');

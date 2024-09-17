@@ -26,6 +26,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('varga')}}">Varga Bálint</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('vivi')}}">Vivi</a>
                             </li>
                             
                             <li class="nav-item">
