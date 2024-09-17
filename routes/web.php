@@ -6,7 +6,7 @@ use App\Http\Controllers\etelController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('fooldal');
 
 #itt ténylegesen meghatározom az url-t
-Route::get('/etelek',[etelController::class,"index"]);
+Route::get('/etelek',[etelController::class,"index"])->name('etelek');
