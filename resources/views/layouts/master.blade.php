@@ -24,6 +24,9 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('etelek')}}">Ételek</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('varga')}}">Varga Bálint</a>
+                            </li>
                             
                           </ul>
 
