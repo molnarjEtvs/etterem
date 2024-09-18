@@ -62,6 +62,9 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('sos')}}">Sós ételek</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('kulonlegessegek')}}">Különlegességek</a>
+                            </li>
                           </ul>
 
                         </div>

@@ -16,6 +16,8 @@ use App\Http\Controllers\LevesController;
 use App\Http\Controllers\deszertController;
 
 use App\Http\Controllers\sosController;
+use App\Http\Controllers\kulonlegessegekController;
+
 
 
 Route::get('/', function () {
@@ -44,4 +46,4 @@ Route::get('/szezonalis',[szezonalislController::class,"index"])->name('szezonal
 Route::get('/sos',[sosController::class,"index"])->name('sos');
 
 Route::get('/Leves', [LevesController::class, "index"])->name('Leves');
-Route::get('deszert',[deszertController::class,"index"])->name('deszert');
+Route::get('deszert',[deszertController::class,"index"])->name('deszert');Route::get('/kulonlegessegek',[kulonlegessegekController::class,"index"])->name('kulonlegessegek');
