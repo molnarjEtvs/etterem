@@ -44,6 +44,10 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('mundo')}}">Amanda</a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('deszert')}}">Amanda</a>
+                            </li>
                           </ul>
 
                         </div>

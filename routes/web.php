@@ -10,6 +10,7 @@ use App\Http\Controllers\ViviController;
 use App\Http\Controllers\mundoController;
 use App\Http\Controllers\diaController;
 use App\Http\Controllers\martinController;
+use App\Http\Controllers\deszertController;
 
 
 Route::get('/', function () {
@@ -31,3 +32,5 @@ Route::get('/mundo',[mundoController::class,"index"])->name('mundo');
 
 Route::get('/dia',[diaController::class,"index"])->name('dia');
 Route::get('/martin',[etelController::class,"index"])->name('martin');
+
+Route::get('deszert',[deszertController::class,"index"])->name('deszert');
