@@ -13,6 +13,7 @@ use App\Http\Controllers\martinController;
 use App\Http\Controllers\szezonalislController;
 
 use App\Http\Controllers\LevesController;
+use App\Http\Controllers\deszertController;
 
 
 Route::get('/', function () {
@@ -39,3 +40,4 @@ Route::get('/szezonalis',[szezonalislController::class,"index"])->name('szezonal
 
 
 Route::get('/Leves', [LevesController::class, "index"])->name('Leves');
+Route::get('deszert',[deszertController::class,"index"])->name('deszert');
