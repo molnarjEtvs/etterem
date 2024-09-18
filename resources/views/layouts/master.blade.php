@@ -50,6 +50,10 @@
                                 Szezonális Ételek
                                 </a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('Leves')}}">Levesek</a>
+                            </li>
                           </ul>
 
                         </div>

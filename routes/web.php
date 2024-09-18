@@ -12,6 +12,8 @@ use App\Http\Controllers\diaController;
 use App\Http\Controllers\martinController;
 use App\Http\Controllers\szezonalislController;
 
+use App\Http\Controllers\LevesController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -34,3 +36,6 @@ Route::get('/dia',[diaController::class,"index"])->name('dia');
 Route::get('/martin',[etelController::class,"index"])->name('martin');
 Route::get('/szezonalis',[szezonalislController::class,"index"])->name('szezonalis');
 
+
+
+Route::get('/Leves', [LevesController::class, "index"])->name('Leves');
