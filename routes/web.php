@@ -15,6 +15,8 @@ use App\Http\Controllers\szezonalislController;
 use App\Http\Controllers\LevesController;
 use App\Http\Controllers\deszertController;
 
+use App\Http\Controllers\sosController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -38,6 +40,8 @@ Route::get('/martin',[etelController::class,"index"])->name('martin');
 Route::get('/szezonalis',[szezonalislController::class,"index"])->name('szezonalis');
 
 
+
+Route::get('/sos',[sosController::class,"index"])->name('sos');
 
 Route::get('/Leves', [LevesController::class, "index"])->name('Leves');
 Route::get('deszert',[deszertController::class,"index"])->name('deszert');
