@@ -11,6 +11,8 @@ use App\Http\Controllers\mundoController;
 use App\Http\Controllers\diaController;
 use App\Http\Controllers\martinController;
 
+use App\Http\Controller\LevesController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -31,3 +33,6 @@ Route::get('/mundo',[mundoController::class,"index"])->name('mundo');
 
 Route::get('/dia',[diaController::class,"index"])->name('dia');
 Route::get('/martin',[etelController::class,"index"])->name('martin');
+
+
+Route::get('/Leves', [LevesController::class, "index"])->name('Leves');
